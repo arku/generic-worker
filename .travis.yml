@@ -11,6 +11,7 @@ env:
   # "CGO_ENABLED=0 GIMME_OS=linux   GIMME_ARCH=arm64 engine=simple"
   - "CGO_ENABLED=0 GIMME_OS=darwin  GIMME_ARCH=amd64 engine=simple"
   - "CGO_ENABLED=0 GIMME_OS=darwin  GIMME_ARCH=amd64 engine=multiuser"
+  - "CGO_ENABLED=0 GIMME_OS=darwin  GIMME_ARCH=amd64 engine=docker"
   - "CGO_ENABLED=0 GIMME_OS=windows GIMME_ARCH=amd64 engine=multiuser"
   - "CGO_ENABLED=0 GIMME_OS=windows GIMME_ARCH=386   engine=multiuser"
 

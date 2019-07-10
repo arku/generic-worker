@@ -81,8 +81,9 @@ else
       linux) install simple    "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
              install docker    "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
              ;;
-     darwin) install simple    "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
+     darwin) install docker    "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
              install multiuser "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
+             install simple    "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
              ;;
     windows) install multiuser "${MY_GOHOSTOS}" "${MY_GOHOSTARCH}"
              ;;
